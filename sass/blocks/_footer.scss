@@ -1,0 +1,48 @@
+.footer {
+  padding: 50px;
+  background-color: #7352FF;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  div {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h3 {
+      max-width: 250px;
+      color: white;
+    }
+
+    input {
+      padding: 10px 30px;
+      border-radius: 10px;
+      background-color: #7352FF;
+      border: white 2px solid;
+    }
+
+    input::placeholder {
+      color: white;
+    }
+
+    a {
+      color: white;
+    }
+  }
+}
+
+.box__fotter {
+  text-align: right;
+  ul {
+  width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

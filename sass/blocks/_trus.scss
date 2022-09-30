@@ -1,0 +1,59 @@
+.trus {
+  padding: 50px;
+  background-color: black;
+}
+
+.trus__inner {
+  h3 {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 48px;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.559642px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 30px;
+  }
+}
+
+.trus__logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 0 auto;
+  img{
+    margin: 20px auto;
+  }
+}
+
+.our__inner{
+  padding: 80px;
+  p{
+    text-align: center;
+    color: #FF573D;
+  }
+  h4{
+    text-align: center;
+    color: #191919;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
